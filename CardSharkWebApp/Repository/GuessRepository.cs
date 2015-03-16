@@ -17,6 +17,7 @@ namespace CardSharkWebApp.Repository
         {
             _dbContext = new CardContext();
             _dbContext.Matches.Load();
+
         }
 
         public CardContext Context()
