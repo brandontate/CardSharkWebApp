@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardSharkWebApp", "CardSharkWebApp2\CardSharkWebApp.csproj", "{6502B018-CE9C-4BEC-9C67-8D4F5F6D5468}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardSharkWebApp", "CardSharkWebApp\CardSharkWebApp.csproj", "{6502B018-CE9C-4BEC-9C67-8D4F5F6D5468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardSharkWebApp.Tests", "CardSharkWebApp2.Tests\CardSharkWebApp.Tests.csproj", "{B5774575-B584-42EB-A394-BFCE487DF06B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardSharkWebApp.Tests", "CardSharkWebApp.Tests\CardSharkWebApp.Tests.csproj", "{B5774575-B584-42EB-A394-BFCE487DF06B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
