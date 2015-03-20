@@ -23,8 +23,53 @@ textarea {
     max-width: 280px;
 }
 
-.startHereButton{
-    color: white;
-    text-decoration: none;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
 }
 
+.orgtitle, .orgcard {
+  text-align:center;
+}
+
+
+.orgcard {
+  margin: 0.4em;
+  height: 14em;
+  width: 30em;
+  background-color: #F7F7EB;
+  box-shadow: 0 0 6px #404040;
+}
+
+.orgcardimg {
+  width:100%; 
+  height:100%;
+}
+
+.orgcard:hover{
+  background-color: #FBFF80;
+  cursor: pointer;
+}
+
+.UFCCard{
+  background: url(../images/UFC-logo.png) center center no-repeat;
+}
+
+.WWECard{
+  max-height: inherit;
+  background: url(../images/WWE-logo.png) center center no-repeat;
+}
+.redline{
+    border: 0; 
+    height: 1px; 
+    box-shadow: 0px -2px 4px #FF6445;
+}
+
+.blueline{
+    border: 0; 
+    height: 1px; 
+    box-shadow: 0px -2px 4px #6FCCE8;
+}

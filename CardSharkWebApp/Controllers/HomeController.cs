@@ -13,10 +13,13 @@ namespace CardSharkWebApp2.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Organization()
         {
-            ViewBag.Message = "Your application description page.";
+            return View();
+        }
 
+        public ActionResult Event()
+        {
             return View();
         }
 

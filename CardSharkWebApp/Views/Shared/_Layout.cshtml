@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="CardSharkApp">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,14 +31,16 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - CardShark - made by <a href="http://brandontate.me">Brandon Tate</a></p>
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; @DateTime.Now.Year - CardShark - made by <a href="http://brandontate.me">Brandon Tate</a></p>
+            </div>
         </footer>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/myscripts")
     @RenderSection("scripts", required: false)
 </body>
 </html>
