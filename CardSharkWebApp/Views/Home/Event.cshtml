@@ -1,11 +1,14 @@
 ﻿@{
     ViewBag.Title = "Event";
 }
-<div class="container col-md-12 orgtitle"><h2>Pick An Organization</h2></div>
-<div class="container col-md-6 orgcard">
-    <div class="orgcardimg UFCCard"></div>  
-</div>
-<div class="container col-md-6 orgcard">
-    <div class="orgcardimg WWECard"></div>
+<div class="container col-md-12 eventtitle">
+    <h2>Pick An Event</h2>
+    <div ng-controller="EventCtrl">
+        <div ng-repeat="event in organization.events">
+            <div class="container col-md-6 orgcard">
+                <div class="orgcardimg {{orgs.name}}Card"></div>
+            </div>
+        </div>
+    </div>
 </div>
 
